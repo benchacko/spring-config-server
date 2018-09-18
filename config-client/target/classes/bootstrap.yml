@@ -1,0 +1,13 @@
+spring: 
+  application:
+    name: config-client
+  profiles:
+    active: development
+  cloud:
+    config:
+      uri: http://localhost:8888
+      username: user
+      password: password
+    vault:
+      token:  ec2f5c9b-beb0-2505-85d0-6118087b45ce
+      scheme: http
